@@ -19,6 +19,11 @@ import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.mctait.bpdtsproject.controller.BpdtsController;
+import com.mctait.bpdtsproject.model.Instructions;
+import com.mctait.bpdtsproject.model.User;
+import com.mctait.bpdtsproject.service.GeoDesicCalculator;
+
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 class BpdtsProjectApplicationTests {
